@@ -1,0 +1,13 @@
+{
+  "name": "my-scraper-api",
+  "version": "1.0.0",
+  "description": "Scraper for ATS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^123.0.1",
+    "puppeteer-core": "^22.12.1"
+  }
+}
