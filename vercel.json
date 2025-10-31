@@ -8,5 +8,10 @@
         { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "api/scrape.js": {
+      "includeFiles": "node_modules/@sparticuz/chromium/bin/**"
+    }
+  }
 }
